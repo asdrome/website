@@ -1,4 +1,4 @@
-<!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
+
 
 <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-10 text-center flex flex-col items-center">
@@ -19,12 +19,7 @@
 		</figure>
 		<!-- / -->
 		<div class="flex justify-center space-x-2">
-			<a
-				class="btn variant-filled"
-				href="https://skeleton.dev/"
-				target="_blank"
-				rel="noreferrer"
-			>
+			<a class="btn variant-filled" href="https://skeleton.dev/" target="_blank" rel="noreferrer">
 				Launch Documentation
 			</a>
 		</div>
@@ -34,6 +29,16 @@
 			<p><code class="code">/src/routes/+page.svelte</code></p>
 		</div>
 	</div>
+</div>
+
+<div class="container mx-auto p-8 space-y-8">
+	<h1 class="h1">Hello Skeleton</h1>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+	<section>
+		<a class="btn variant-filled-primary" href="https://kit.svelte.dev/">SvelteKit</a>
+		<a class="btn variant-filled-secondary" href="https://tailwindcss.com/">Tailwind</a>
+		<a class="btn variant-filled-tertiary" href="https://github.com/">GitHub</a>
+</section>
 </div>
 
 <style lang="postcss">
@@ -46,7 +51,8 @@
 	}
 	.img-bg {
 		@apply absolute z-[-1] rounded-full blur-[50px] transition-all;
-		animation: pulse 5s cubic-bezier(0, 0, 0, 0.5) infinite,
+		animation:
+			pulse 5s cubic-bezier(0, 0, 0, 0.5) infinite,
 			glow 5s linear infinite;
 	}
 	@keyframes glow {
