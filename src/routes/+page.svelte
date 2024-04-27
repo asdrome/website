@@ -1,8 +1,6 @@
-
-
-<div class="container h-full mx-auto flex justify-center items-center">
-	<div class="space-y-10 text-center flex flex-col items-center">
-		<h2 class="h2">Welcome to Skeleton.</h2>
+<div class="container h-full mx-auto flex justify-center">
+	<div class="space text-center flex flex-col items-center">
+		<h2 class="h1 font-extrabold font-mono">Asdrome</h2>
 		<!-- Animated Logo -->
 		<figure>
 			<section class="img-bg" />
@@ -38,7 +36,7 @@
 		<a class="btn variant-filled-primary" href="https://kit.svelte.dev/">SvelteKit</a>
 		<a class="btn variant-filled-secondary" href="https://tailwindcss.com/">Tailwind</a>
 		<a class="btn variant-filled-tertiary" href="https://github.com/">GitHub</a>
-</section>
+	</section>
 </div>
 
 <style lang="postcss">
